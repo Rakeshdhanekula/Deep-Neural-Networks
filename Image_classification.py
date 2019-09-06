@@ -19,7 +19,7 @@ from sklearn.metrics import roc_auc_score
 t = 100
 i=0
 training_data = []
-direc = '/Users/rakeshdhanekula/Desktop/Master Thesis/data_set_for_class/training_set'
+direc = 'training_set'
 categories = ['class-1','class-2','class-3','class-4','class-5']
 for category in categories:
     path = os.path.join(direc, category)
